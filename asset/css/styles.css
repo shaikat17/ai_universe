@@ -1,0 +1,143 @@
+.card {
+    height: 410px !important;
+}
+
+.img-box {
+    height: 170px !important;
+    overflow: hidden !important;
+    /* object-fit: cover !important;
+    object-position: center !important; */
+}
+
+img {
+    
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.icon {
+    height: 40px !important;
+    width: 40px !important;
+    background-color: #BB2D3B !important;
+    text-align: center !important;
+    color: whitesmoke;
+    border-radius: 50%;
+    outline: none !important;
+    border: none !important;
+}
+
+.card-text, .date {
+    color: #585858 !important;
+}
+
+.box-1 {
+    border: 1px solid #EB5757;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: rgba(235, 87, 87, 0.1);
+    border-radius: 10px;
+}
+
+.box-2 {
+    border: 1px solid #E7E7E7;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.modal-image {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.accuracy {
+    background-color: #EB5757;
+    width: 130px;
+    height: 28px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.box-price {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-align: center !important;
+    font-size: 12px;
+
+}
+
+.box-price:nth-child(1) {
+    color: #03A30A;
+}
+
+.box-price:nth-child(2) {
+    color: #F28927;
+}
+
+.box-price:nth-child(3) {
+    color: #EB5757;
+}
+
+.details-box {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.modal-integration, .modal-features {
+    font-size: 14px;
+    color: #585858;
+}
+
+.cls-btn {
+    background-color: #EB5757;
+    color: #ffffff;
+    border: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    right: -7px;
+    top: -15px;
+}
+
+.modal-header {
+    border: none;
+}
+
+.spinner-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #585858;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.spinner-border {
+    height: 60px;
+    width: 60px;
+}
+
+@media only screen and (max-width: 992px) {
+  .pricing_box {
+    flex-direction: column !important;
+  }
+}
